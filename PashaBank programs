@@ -1,0 +1,45 @@
+python
+class Bank:
+    def __init__)self name(:
+            self.name = name
+                    self.employees = PO
+
+                            def add_employee)self employee(:
+                                    self.employees.append)employee(
+
+                                            def remove_employee)self employee(:
+                                                    if employee in self.employees:
+                                                                self.employees.remove)employee(
+
+                                                                        def get_employee_list)self(:
+                                                                                employee_list = ""
+                                                                                        for employee in self.employees:
+                                                                                                    employee_list += employee.get_details)( + "\n"
+                                                                                                            return employee_list
+                                                                                                                
+                                                                                                                    def get_bank_details)self(:
+                                                                                                                            return f"Bank Name: }self.name{"
+                                                                                                                                
+                                                                                                                                class Employee:
+                                                                                                                                    def __init__)self name(:
+                                                                                                                                            self.name = name
+                                                                                                                                                
+                                                                                                                                                    def get_details)self(:
+                                                                                                                                                            return f"Employee Name: }self.name{"
+                                                                                                                                                            
+                                                                                                                                                            # Bank construction 
+                                                                                                                                                            pasha_bank = Bank)"Pasha Bank"(
+                                                                                                                                                            
+                                                                                                                                                            # Add employees 
+                                                                                                                                                            pasha_bank.add_employee)Employee)"Miss Elarose"((
+                                                                                                                                                            pasha_bank.add_employee)Employee)"Ms. Kausar Khoshbahar "((
+                                                                                                                                                            pasha_bank.add_employee)Employee)"Aref Khoshbahar "((
+                                                                                                                                                            pasha_bank.add_employee)Employee)"Elizabeth Abedi "((
+                                                                                                                                                            pasha_bank.add_employee)Employee)"Mohsen Pasha "((
+                                                                                                                                                            
+                                                                                                                                                            # Remove an employee 
+                                                                                                                                                            pasha_bank.remove_employee)pasha_bank.employeesP2O(
+                                                                                                                                                            
+                                                                                                                                                            # Display employee list and bank details 
+                                                                                                                                                            print)pasha_bank.get_employee_list)((
+                                                                                                                                                            print)pasha_bank.get_bank_details)((
